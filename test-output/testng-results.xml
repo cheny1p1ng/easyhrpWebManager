@@ -1,59 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3353" started-at="2019-01-22T06:37:50Z" finished-at="2019-01-22T06:37:54Z">
+  <suite name="Default suite" duration-ms="5964" started-at="2019-01-22T07:00:44Z" finished-at="2019-01-22T07:00:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3353" started-at="2019-01-22T06:37:50Z" finished-at="2019-01-22T06:37:54Z">
+    <test name="Default test" duration-ms="5964" started-at="2019-01-22T07:00:44Z" finished-at="2019-01-22T07:00:50Z">
       <class name="com.erin.easyhrp.testcase.login">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.erin.easyhrp.testcase.login@e25b2fe]" name="loginTest" is-config="true" duration-ms="2724" started-at="2019-01-22T14:37:50Z" finished-at="2019-01-22T14:37:53Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.erin.easyhrp.testcase.login@204f30ec]" name="loginTest" is-config="true" duration-ms="2870" started-at="2019-01-22T15:00:44Z" finished-at="2019-01-22T15:00:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="getLoginHome()[pri:0, instance:com.erin.easyhrp.testcase.login@e25b2fe]" name="getLoginHome" duration-ms="615" started-at="2019-01-22T14:37:53Z" finished-at="2019-01-22T14:37:54Z">
+        <test-method status="PASS" signature="getLoginHome()[pri:0, instance:com.erin.easyhrp.testcase.login@204f30ec]" name="getLoginHome" duration-ms="568" started-at="2019-01-22T15:00:47Z" finished-at="2019-01-22T15:00:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLoginHome -->
-        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.erin.easyhrp.testcase.login@e25b2fe]" name="login" duration-ms="0" started-at="2019-01-22T14:37:54Z" depends-on-methods="com.erin.easyhrp.testcase.login.getLoginHome" finished-at="2019-01-22T14:37:54Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'userName' is required by @Test on method login but has not been marked @Optional or defined
-in C:\Users\84112\AppData\Local\Temp\testng-eclipse-381882495\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'userName' is required by @Test on method login but has not been marked @Optional or defined
-in C:\Users\84112\AppData\Local\Temp\testng-eclipse-381882495\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.erin.easyhrp.testcase.login@204f30ec]" name="login" duration-ms="413" started-at="2019-01-22T15:00:47Z" depends-on-methods="com.erin.easyhrp.testcase.login.getLoginHome" finished-at="2019-01-22T15:00:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.erin.easyhrp.testcase.login@204f30ec]" name="after" is-config="true" duration-ms="2099" started-at="2019-01-22T15:00:48Z" finished-at="2019-01-22T15:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
       </class> <!-- com.erin.easyhrp.testcase.login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

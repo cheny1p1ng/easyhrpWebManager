@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="TestSuite" time="1.001" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="TestSuite" time="0.995" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="G:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3975683044627563006.tmp"/>
+    <property name="classworlds.conf" value="G:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5406546410965249844.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;F:\工作软件\PICT\;F:\workingsoft\android-sdk-windows\tools;F:\workingsoft\android-sdk-windows\platform-tools;F:\workingsoft\android-sdk-windows\\build-tools\android-4.3;%ANDROID_SDK_HOME%\platform-tools;%ANDROID_SDK_HOME%\tools;F:\workingsoft\node.js\;F:\workingsoft\Appium\Appium\node_modules\.bin;C:\Users\84112\AppData\Local\Microsoft\WindowsApps;F:\工作软件\fiddler;C:\Users\84112\AppData\Roaming\npm;C:\adb;F:\workingsoft\Python;F:\workingsoft\Python\Scripts;F:\workingsoft\apache-maven-3.5.4\bin\;F:\workingsoft\apache-jmeter-4.0\lib\ext\ApacheJMeter_core.jar;F:\workingsoft\apache-jmeter-4.0\lib\jorphan.jar;F:\workingsoft\apache-jmeter-4.0\lib\logkit-2.0.jar;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\84112\AppData\Local\Microsoft\WindowsApps;F:\工作软件\fiddler;C:\Users\84112\AppData\Roaming\npm;C:\Users\84112\AppData\Local\Microsoft\WindowsApps;C:\Users\84112\AppData\Local\GitHubDesktop\bin;F:\workingsoft\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.erin.easyhrp.testcase.login" name="getLoginHome" time="0.608"/>
-  <testcase classname="com.erin.easyhrp.testcase.login" name="login" time="0.393"/>
+  <testcase classname="com.erin.easyhrp.testcase.login" name="getLoginHome" time="0.598"/>
+  <testcase classname="com.erin.easyhrp.testcase.login" name="login" time="0.397"/>
 </testsuite>

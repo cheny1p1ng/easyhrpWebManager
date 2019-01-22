@@ -5,6 +5,7 @@
     <classes>
       <class name="com.erin.easyhrp.testcase.login">
         <methods>
+          <include name="after"/>
           <include name="loginTest"/>
           <include name="getLoginHome"/>
           <include name="login"/>

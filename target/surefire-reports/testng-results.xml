@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3945" started-at="2019-01-22T06:37:35Z" finished-at="2019-01-22T06:37:39Z">
+  <suite name="Suite" duration-ms="5930" started-at="2019-01-22T06:59:36Z" finished-at="2019-01-22T06:59:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3945" started-at="2019-01-22T06:37:35Z" finished-at="2019-01-22T06:37:39Z">
+    <test name="Test" duration-ms="5930" started-at="2019-01-22T06:59:36Z" finished-at="2019-01-22T06:59:42Z">
       <class name="com.erin.easyhrp.testcase.login">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.erin.easyhrp.testcase.login@531be3c5]" name="loginTest" is-config="true" duration-ms="2933" started-at="2019-01-22T14:37:35Z" finished-at="2019-01-22T14:37:38Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.erin.easyhrp.testcase.login@52af6cff]" name="loginTest" is-config="true" duration-ms="2830" started-at="2019-01-22T14:59:36Z" finished-at="2019-01-22T14:59:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="getLoginHome()[pri:0, instance:com.erin.easyhrp.testcase.login@531be3c5]" name="getLoginHome" duration-ms="609" started-at="2019-01-22T14:37:38Z" finished-at="2019-01-22T14:37:39Z">
+        <test-method status="PASS" signature="getLoginHome()[pri:0, instance:com.erin.easyhrp.testcase.login@52af6cff]" name="getLoginHome" duration-ms="598" started-at="2019-01-22T14:59:39Z" finished-at="2019-01-22T14:59:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLoginHome -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.erin.easyhrp.testcase.login@531be3c5]" name="login" duration-ms="393" started-at="2019-01-22T14:37:39Z" depends-on-methods="com.erin.easyhrp.testcase.login.getLoginHome" finished-at="2019-01-22T14:37:39Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.erin.easyhrp.testcase.login@52af6cff]" name="login" duration-ms="398" started-at="2019-01-22T14:59:40Z" depends-on-methods="com.erin.easyhrp.testcase.login.getLoginHome" finished-at="2019-01-22T14:59:40Z">
           <params>
             <param index="0">
               <value>
@@ -31,6 +31,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.erin.easyhrp.testcase.login@52af6cff]" name="after" is-config="true" duration-ms="2095" started-at="2019-01-22T14:59:40Z" finished-at="2019-01-22T14:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
       </class> <!-- com.erin.easyhrp.testcase.login -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
